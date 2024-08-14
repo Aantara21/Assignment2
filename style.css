@@ -439,6 +439,37 @@ body {
     background-color: #e64a19;
 }
 
+
+.run {
+margin: 100px 200px;
+/* border: 2px solid red; */
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+
+.run img{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+.run-content{
+    width: 100%;
+    padding-right: 20%;
+    border: 2px solid red;
+    
+    
+}
+
+.run-content h3{
+font-size: 35px;
+}
+
+
+
+
+
+
 /* Responsive Styles */
 @media (max-width: 576px) {
     .bmi-content {
@@ -453,5 +484,21 @@ body {
     .bmi-form button {
         font-size: 14px;
     }
+    .run{
+        margin: 30px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .run-content{
+        width: 100%;
+        
+        
+        
+    }
+    
+
 }
+
+
 
