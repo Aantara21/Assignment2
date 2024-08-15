@@ -8,6 +8,7 @@
     background: #111111;
     p{
         color: rgba(255, 255, 255, 0.5);
+        
         font-size: 14px;
     }
 }
@@ -43,17 +44,26 @@
 }
 
 /* banner css */
-
+   
+.sec{
+   height: 600px;
+}
 .banner{
+    
+    margin-top: 40px;
     margin-left: 110px;
     display: flex;
-    height: 600px;
+    height: 400px;
     width: 85%;
+    
+   
+   
 
 }
 
 .banner-content{
-  
+    margin-top: 60px;
+    margin-left: 30px;
     width: 100%;
     
 
@@ -62,12 +72,11 @@
 .banner-content h1{
     font-weight: 800;
     font-size: 70px;
-    
-
-}
+    margin: 0;
+    }
 
 .banner-content p{
-    width: 100%;
+    width: 50%;
     margin-bottom: 50px;
     
 }
@@ -86,6 +95,7 @@
     border-radius: 30px;
     font-size: 16px;
     margin-right: 20px;
+    
    
 }
 
@@ -100,21 +110,74 @@
     margin-top: 10px;
 }
 
-.banner-image img{
-   
+
+.stats {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
     
+   
 }
+
+.stat-item1 ,.stat-item2 {
+    text-align: center;
+    background-color:  rgba(118, 107, 107, 0.307);
+    border-radius: 10px;
+    padding: 5px 10px;
+    backdrop-filter: blur(4px);
+    
+   
+}
+
+.stat-item1{
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    padding: 5px 10px;
+    line-height: 10px;
+    border: 1px solid gray;
+}
+
+.stat-item2{
+    position: absolute;
+    left: 82%;
+    top: 35%;
+    padding: 5px 10px;
+    line-height: 10px;
+    border: 1px solid gray;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color:  rgba(118, 107, 107, 0);
+   
+}
+
+.stat-para{
+    background-color:  rgba(118, 107, 107, 0);
+   
+}
+
+
 
 @media (max-width : 576px) {
 .navbar{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .banner{
     margin-left: 10px;
     width: 100%;
     flex-direction: column;
 }
+.banner-content{
+    margin-top: 5px;
+    font-weight: 800;
+    font-size: 30px;
+    }
 .banner-content h1{
+    
     font-weight: 800;
     font-size: 30px;
     }
@@ -126,14 +189,16 @@
         font-weight: 100;
     }
     .banner-content p{
+        font-weight: 400;
          width: 80%;
+         ma
         
     }
     
     .banner-image{
         margin-top: 30px;
         width: 100%;
-        margin-left: 50px;
+        margin-left: 70px;
     }
 
     .banner-image img{
@@ -146,10 +211,14 @@
         display: none;
     }
 .btn-primary{
+    font-weight: 400;
     padding: 10px 15px;
+    
     margin-right: 5px;
+    font-size: 10;
 }
 .btn-secondary{
+    font-weight: 400;
     padding: 10px 15px;
 }
 
