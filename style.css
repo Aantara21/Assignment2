@@ -160,6 +160,66 @@
    
 }
 
+/* habit css */
+.habits {
+    text-align: center;
+    padding: 80px 30px;
+    background-color: #000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.habits h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #fff;
+    background-color: #000;
+}
+
+.habits p{
+    color: #fff;
+    background-color: #000;
+    font-size: 13px;
+    color: #a5a5a5;
+    
+   
+}
+
+.habits-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #000;
+}
+
+.habit {
+    max-width: 200px;
+    background-color: #000;
+    gap: 50px;
+}
+
+.habit img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid rgba(105, 100, 100, 0.227);
+    margin-top: 20px;
+}
+
+.habit h6 {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 500;
+}
+
+.habit p {
+    color: #a5a5a5;
+}
+
+
 
 
 @media (max-width : 576px) {
@@ -190,9 +250,7 @@
     }
     .banner-content p{
         font-weight: 400;
-         width: 80%;
-         ma
-        
+         width: 80%;   
     }
     
     .banner-image{
