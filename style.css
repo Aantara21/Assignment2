@@ -360,9 +360,12 @@
     flex-direction: column;
     width: 300px;
     margin-left: 10px;
-    height: 600px;
+    margin-right: 10px;
+    height: 620px;
     /* background-color: #2de169; */
-    padding-left: 5px;
+    padding-left: 20px;
+    padding-right:40px ;
+    
     
 }
 
